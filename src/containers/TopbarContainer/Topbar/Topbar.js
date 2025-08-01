@@ -191,7 +191,7 @@ const TopbarComponent = props => {
   const handleLogout = () => {
     const { onLogout, history, routeConfiguration } = props;
     onLogout().then(() => {
-      const path = pathByRouteName('LandingPage', routeConfiguration);
+      const path = pathByRouteName('https://www.torodrive.com/', routeConfiguration);
 
       // In production we ensure that data is really lost,
       // but in development mode we use stored values for debugging
